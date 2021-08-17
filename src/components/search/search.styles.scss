@@ -1,0 +1,18 @@
+.search-container{
+  padding-top: 20px;
+  width: 85vw;
+  margin: 0 auto;
+  input[type="search"].search {
+    -webkit-appearance: none;
+    border: 1px solid #423e3e;
+    outline: none;
+    padding: 13px;
+    float: left;
+    max-width: 86%;
+    background-color: #2f2828;
+    color: white;
+    min-width: 300px;
+  }
+}
+ 
+  

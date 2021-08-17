@@ -1,0 +1,36 @@
+.card-container {
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    margin: 5px;
+    position: relative;
+     
+    .image-container{
+      height: 150px;
+      overflow: hidden;
+      border-radius: 5px;
+      position: relative;
+      img{
+            width: 100%;
+        }
+    }
+    
+    p{
+      color: white;
+      text-align: left;
+      font-size: 12px;
+      padding: 10px 0;
+    }
+    &:hover {
+      transform: scale(1.05);
+      img{
+          width: 100%;
+      }
+    }
+    
+  }
+  
+   
+  
